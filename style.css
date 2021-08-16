@@ -48,7 +48,7 @@ body {
   right: 15px;
 }
 
-.section1 {
+aside {
   display: flex;
   flex-direction: column;
   flex: 0.3;
@@ -72,20 +72,22 @@ body {
 
 }
 
-.section2 {
+.main-section {
   display: flex;
   flex-direction: column;
   flex: 0.7;
   margin-left: 20px;
 }
 
-.section2-1 {
+.main-section header {
   display: flex;
   flex-direction: row;
 }
 
-.hpname {
-  text-align: center
+.main-section header h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
 }
 
 .url {
@@ -93,7 +95,7 @@ body {
 }
 
 /**.profile과 동시에 적용하는 방법?*/
-.section2-2 {
+.main-section .contents {
   display: flex;
   flex: 1;
   background-color: white;
@@ -102,7 +104,7 @@ body {
   margin-top: 15px;
 }
 
-.section3 {
+nav {
   display: flex;
   flex: 0.1;
   border: 2px solid darkgrey;
