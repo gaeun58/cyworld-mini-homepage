@@ -11,6 +11,7 @@ body {
   width: 960px;
   height: 660px;
   position: relative;
+  margin: 100px auto;
 }
 
 .bookdot {
@@ -28,5 +29,7 @@ body {
   border-radius: 10px;
   width: 900px;
   height: 600px;
-  position: absolute;
+
+  /**포지션 적용 안함*/
+  margin: 13px auto;
 }
