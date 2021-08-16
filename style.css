@@ -27,9 +27,14 @@ body {
 .page {
   background-color: white;
   border-radius: 10px;
-  width: 900px;
-  height: 600px;
 
-  /**포지션 적용 안함*/
-  margin: 13px auto;
+  /**position 속성을 absolute 또는 fixed로 적용한 후
+  top, bottom, left, right를 모두 지정하면
+  상위요소의 크기에 따라 변하도록 할 수 있음
+   */
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
 }
