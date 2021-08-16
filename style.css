@@ -90,9 +90,14 @@ aside {
   margin: 0;
 }
 
-.url {
-
+.main-section header > * {
+  flex-basis: 50%;
 }
+/** 그냥 우측 정렬하고싶으면
+.main-section header .url {
+  margin-left: auto;
+}
+ */
 
 /**.profile과 동시에 적용하는 방법?*/
 .main-section .contents {
