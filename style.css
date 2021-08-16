@@ -48,10 +48,10 @@ body {
   right: 15px;
 }
 
-.section1 {
+aside {
   display: flex;
   flex-direction: column;
-  flex: 0.3;
+  flex: 0 0 30%;
 }
 
 .today {
@@ -60,6 +60,8 @@ body {
 
 .today span {
   color: red;
+  border-right: 1px solid black;
+  padding-right: 0.4em;
 }
 
 .profile {
@@ -72,28 +74,35 @@ body {
 
 }
 
-.section2 {
+.main-section {
   display: flex;
   flex-direction: column;
-  flex: 0.7;
+  flex: 0 0 60%;
   margin-left: 20px;
 }
 
-.section2-1 {
+.main-section header {
   display: flex;
   flex-direction: row;
 }
 
-.hpname {
-  text-align: center
+.main-section header h1 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 0;
 }
 
-.url {
-
+.main-section header > * {
+  flex-basis: 50%;
 }
+/** 그냥 우측 정렬하고싶으면
+.main-section header .url {
+  margin-left: auto;
+}
+ */
 
 /**.profile과 동시에 적용하는 방법?*/
-.section2-2 {
+.main-section .contents {
   display: flex;
   flex: 1;
   background-color: white;
@@ -102,9 +111,9 @@ body {
   margin-top: 15px;
 }
 
-.section3 {
+nav {
   display: flex;
-  flex: 0.1;
+  flex: 0 0 10%;
   border: 2px solid darkgrey;
 }
 
