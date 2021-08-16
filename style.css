@@ -60,6 +60,8 @@ aside {
 
 .today span {
   color: red;
+  border-right: 1px solid black;
+  padding-right: 0.4em;
 }
 
 .profile {
