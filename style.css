@@ -70,8 +70,13 @@ aside {
   background-color: white;
   border: 1px solid darkgrey;
   border-radius: 10px;
-  margin-top: 15px;
+  margin-top: 15px
+}
 
+.profile > img {
+  width: 100%;
+  height: 30%;
+  margin: 20px;
 }
 
 .main-section {
@@ -102,7 +107,8 @@ aside {
  */
 
 .main-section .contents {
-  display: flex;
+  /**여기 display: flex 안써도 되나? 왜 inline-block인가*/
+  display: inline-block;
   flex: 1;
   background-color: white;
   border: 1px solid darkgrey;
@@ -110,10 +116,44 @@ aside {
   margin-top: 15px;
 }
 
+.news {
+  margin: 10px;
+}
+
+.miniroom {
+  margin: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  color: steelblue;
+  border-bottom: 1px solid darkgrey;
+  margin: 0;
+}
+
+.news-contents {
+  display: flex;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul>li {
+  list-style: none;
+}
+
+.left {
+  flex-basis: 50%;
+}
+
+.left > ul > li {
+  margin-bottom: 5px;
+}
+
 nav {
   display: flex;
   flex: 0 0 10%;
   border: 2px solid darkgrey;
 }
-
 
