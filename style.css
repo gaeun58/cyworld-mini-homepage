@@ -66,6 +66,7 @@ aside {
 
 .profile {
   display: flex;
+  flex-direction: column;
   flex: 1;
   background-color: white;
   border: 1px solid darkgrey;
@@ -74,9 +75,12 @@ aside {
 }
 
 .profile > img {
-  width: 100%;
-  height: 30%;
-  margin: 20px;
+  width: 80%;
+  margin: 21px auto;
+}
+
+.profile > div {
+  text-align: center;
 }
 
 .main-section {
@@ -107,8 +111,6 @@ aside {
  */
 
 .main-section .contents {
-  /**여기 display: flex 안써도 되나? 왜 inline-block인가*/
-  display: inline-block;
   flex: 1;
   background-color: white;
   border: 1px solid darkgrey;
@@ -132,6 +134,7 @@ h2 {
 }
 
 .news-contents {
+  font-size: 14px;
   display: flex;
 }
 
@@ -143,12 +146,28 @@ ul>li {
   list-style: none;
 }
 
-.left {
+.recently-news {
   flex-basis: 50%;
 }
 
-.left > ul > li {
+.recently-news > ul > li {
   margin-bottom: 5px;
+}
+
+.unconfirmed-news {
+  flex-basis: 50%;
+}
+
+.unconfirmed-news > ul {
+  border-bottom: 1px dashed grey;
+}
+
+.line1 > li {
+  display: inline-block;
+}
+
+.line2 > li {
+  display: inline-block;
 }
 
 nav {
