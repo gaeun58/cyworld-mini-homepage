@@ -1,0 +1,51 @@
+.main-section .contents {
+  flex: 1;
+  background-color: white;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.news {
+  margin: 10px;
+}
+
+.miniroom {
+  margin: 10px;
+}
+
+.box-title {
+  font-size: 20px;
+  color: steelblue;
+  border-bottom: 1px solid darkgrey;
+  margin: 0;
+}
+
+.news-contents {
+  font-size: 14px;
+  display: flex;
+}
+
+.recently-news {
+  flex-basis: 50%;
+}
+
+.recently-news > ul > li {
+  margin-bottom: 5px;
+}
+
+.unconfirmed-news {
+  flex-basis: 50%;
+}
+
+.unconfirmed-news > ul {
+  border-bottom: 1px dashed grey;
+}
+
+.line1 > li {
+  display: inline-block;
+}
+
+.line2 > li {
+  display: inline-block;
+}
