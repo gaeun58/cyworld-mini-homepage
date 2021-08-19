@@ -3,7 +3,7 @@
   background-color: white;
   border: 1px solid darkgrey;
   border-radius: 10px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .news {
@@ -71,4 +71,9 @@
 
 .line-num {
   color: navy;
+}
+
+.miniroom-gif > img {
+  width: 100%;
+  margin-top: 14px;
 }

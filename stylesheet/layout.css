@@ -71,7 +71,7 @@ aside {
   background-color: white;
   border: 1px solid darkgrey;
   border-radius: 10px;
-  margin-top: 15px
+  margin-top: 10px;
 }
 
 .profile > img {
@@ -79,8 +79,39 @@ aside {
   margin: 21px auto;
 }
 
-.profile > div {
+.profile-intro {
   text-align: center;
+  /**flex: 0.8;*/
+}
+
+.profile-name {
+  /**flex: 0.2;*/
+}
+
+.profile-dropdown {
+  position: relative;
+  border: 1px solid #c9d4da;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-content > a {
+  display: block;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-top: 5px solid darkgrey;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
 }
 
 .main-section {
@@ -119,10 +150,22 @@ ul>li {
   list-style: none;
 }
 
-
 nav {
-  display: flex;
   flex: 0 0 10%;
-  border: 2px solid darkgrey;
 }
 
+.menu-container {
+  margin-top: 70px;
+}
+
+.menu-button {
+  display: block;
+  color: white;
+  background-color: lightpink;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 15px;
+}
