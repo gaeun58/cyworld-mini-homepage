@@ -5,7 +5,7 @@ body {
 }
 
 .bookcover {
-  background-color: #b4d1da;
+  background-color: #ff848f;
   border: 1px solid #738186;
   border-radius: 10px;
   width: 960px;
@@ -72,28 +72,34 @@ aside {
   border: 1px solid darkgrey;
   border-radius: 10px;
   margin-top: 10px;
+  padding: 2rem;
 }
 
 .profile > img {
   width: 80%;
-  margin: 21px auto;
+  margin: 0 auto 2rem auto;
 }
 
 .profile-intro {
   text-align: center;
-  /**flex: 0.8;*/
+  flex: 1;
 }
 
 .profile-name {
-  /**flex: 0.2;*/
+  flex: 0;
 }
 
+/*파도타기 dropdown 기능*/
 .profile-dropdown {
   position: relative;
   border: 1px solid #c9d4da;
   padding: 5px;
   margin-top: 10px;
   font-size: 0.8rem;
+}
+
+.profile-dropdown:hover > .dropdown-content {
+  display: block;
 }
 
 .dropdown-btn {
@@ -105,13 +111,21 @@ aside {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 100%;
   top: 0;
   left: 0;
+  width: 100%;
 }
 
 .dropdown-content > a {
   display: block;
+  background-color: #f9f9f9;
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #f1f1f1;
 }
 
 .triangle-down {
@@ -166,7 +180,7 @@ nav {
   margin-top: 70px;
 }
 
-.menu-button {
+.menu-container > a {
   display: block;
   color: white;
   background-color: lightpink;
@@ -176,4 +190,8 @@ nav {
   text-decoration: none;
   padding: 2px;
   font-size: 15px;
+}
+
+.menu-container > a:hover {
+  background-color: #617dc1;
 }
