@@ -15,10 +15,26 @@
   width: 100%;
 }
 
+.photo-text {
+  padding-bottom: 2rem;
+}
+
+
+
 .photo-contents {
   margin: 15px;
 }
 
+.photo-title > span {
+  font-size: 13px;
+}
+
+.photo-image {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .photo-text {
-  padding-bottom: 2rem;
+  margin-left: 15px;
+  margin-right: 15px;
 }
