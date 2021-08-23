@@ -1,3 +1,32 @@
 .calendar {
+  border: 1px solid darkgrey;
+  display: flex;
+  padding: 10px;
+  margin: 20px 10px 10px 10px;
+}
 
+.today-date {
+  flex: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.date-box {
+  flex: 90%;
+}
+
+.diary-contents {
+  border: 1px solid darkgrey;
+  /**마진 겹침*/
+  margin: 20px 10px;
+}
+
+.diary-text {
+  display: block;
+  text-align: center;
+}
+
+.diary-box {
+  overflow: scroll;
+  overflow-x: hidden;
 }
