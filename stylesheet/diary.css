@@ -63,9 +63,25 @@
 }
 
 .diary-text {
+  margin: 2rem 0;
   text-align: center;
 }
 
 .button-box {
   display: flex;
+  justify-content: center;
+}
+
+.diary-button {
+  color: #fff;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  transition: 800ms ease all;
+}
+
+.diary-button:hover {
+  background-color: #1aab8a;
+  color: #fff;
 }
