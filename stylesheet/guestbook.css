@@ -11,11 +11,17 @@
 .guestbook-head {
   background-color: #eeeeee;
   padding: 10px;
-  margin-bottom: 20px;
+  font-family: NeoDunggeunmo;
 }
 
 .guestbook-contents {
   display: flex;
+  padding: 1.5rem 0;
+}
+
+.guestbook-image {
+  display: flex;
+  align-items: center;
 }
 
 .guestbook-image > img {
@@ -24,10 +30,19 @@
   margin-right: 20px;
 }
 
+.guestbook-text {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+
+}
+
 .guestbook-reply {
   background-color: #eeeeee;
   padding: 10px;
-  margin-top: 10px;
+  font-family: NeoDunggeunmo;
 }
 
 .user-name {
