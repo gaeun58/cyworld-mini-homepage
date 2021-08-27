@@ -112,6 +112,7 @@ aside {
   border-top: 7px solid grey;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
+  margin-right: -3px;
 }
 
 .triangle-up {
