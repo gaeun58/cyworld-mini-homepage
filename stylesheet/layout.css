@@ -233,3 +233,7 @@ nav {
 .menu-container > a:hover {
   background-color: #617dc1;
 }
+
+.url {
+  text-align: end;
+}
